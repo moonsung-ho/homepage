@@ -19,23 +19,9 @@
       const projectid = ['5f03caba86edaa002c7cece3','5f4b4572569bdd00ad6d346d','5f388cfc413e3301b0e4f48b','5f2a131808db2f00564497c1','5ec33e0667bcb80036424f99','5ee9753f57d2fc018826a345'] //여기에 자기 엔트리작품 id를 입력하세요
       const theme = 'light' //light또는 dark를 입력하세요
       
-      <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+      <link rel="shortcut icon" href="/path/favicon.ico">
+
+
       function load(){
         for(var i = 0; i<projectname.length; i++){
           document.getElementsByClassName('project')[0].innerHTML += `<a href="https://playentry.org/01079187959/${projectid[i]}"><img class="pimg" src="https://playentry.org/uploads/thumb/${projectid[i].substring(0,4)}/${projectid[i]}.png"><div class="pdiv"><p class="pname"><strong>${projectname[i]}</strong></p><p class="pment">${projectment[i]}</p></div></a>`
