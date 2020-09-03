@@ -3,5 +3,5 @@
     <head>
         <meta charset="utf-8">
     </head>
-    <script><a href="https://playentry.org/01079187959#!/"></script>
+    window.location.replace("https://playentry.org/01079187959");
 </html>
