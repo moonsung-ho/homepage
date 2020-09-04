@@ -24,7 +24,7 @@
           document.getElementsByClassName('project')[0].innerHTML += `<a href="https://playentry.org/01079187959/${projectid[i]}"><img class="pimg" src="https://playentry.org/uploads/thumb/${projectid[i].substring(0,4)}/${projectid[i]}.png"><div class="pdiv"><p class="pname"><strong>${projectname[i]}</strong></p><p class="pment">${projectment[i]}</p></div></a>`
         }
         var avatar = `https://playentry.org/uploads/profile/${userid.substring(0,2)}/${userid.substring(2,4)}/avatar_${userid}.png`
-        document.title = `${nickname}의 공식사이트`
+        document.title = `${nickname}'s homepage😎`
         document.querySelector("body > div.name").innerHTML = name
         document.querySelector("body > div.ment").innerHTML = myment
         document.querySelector("body > div.container > svg > path").style.fill = maincolor
