@@ -15,6 +15,7 @@ alert("인터넷 익스플로러는 쓰면 안됩니다");
   
 }
       const name = '01079*87959' //여기에 자기 엔트리아이디를 입력하세요
+      const realname = '문성호' //내가 새로 추가함
       const userid = '5ec33d0cbcb447015a162945' //여기에 자기 유저아이디를 입력하세요 (엔트리콘솔창에 user._id를 치면 자신의 유저아이디를 볼수있어요)
       const gitname = 'sungho0205' //여기에 자기 깃허브아이디를 입력하세요 (깃허브계정이 없으면 그냥 avocad5를 입력하세요<ㅍ)
       const nickname = '전화번호' //여기에 자기 별명을 입력하세요 
@@ -40,7 +41,7 @@ alert("인터넷 익스플로러는 쓰면 안됩니다");
         document.querySelector("body > div.container > svg > path").style.fill = maincolor
         document.querySelector("body > div.profile > a").href = `https://playentry.org/01079187959`
         document.querySelector("body > div.profile > a").innerHTML = `<img src="${avatar}">`
-        document.querySelector("body > div.profile > div").innerHTML = `<p>이름 : ${name}</p><p>별명 : ${nickname}</p><p>대표작 : ${mywork}</p><p>경력 : ${career}</p><p>소개 : ${explanation}</p>`
+        document.querySelector("body > div.profile > div").innerHTML = `<p>엔트리ID : ${name}</p><p>이름 : ${realname}</p><p>대표작 : ${mywork}</p><p>경력 : ${career}</p><p>소개 : ${explanation}</p>`
         document.querySelector("body > div.footer").innerHTML = `<a href="tel:01079187959"><span>Phone</span></a><a href="mailto:moon7959@kakao.com"><span>Email</span></a><a href="https://github.com/${gitname}"><span>Github</span></a><a href="https://playentry.org/01079187959#!/"><span>Entry</span></a>`
         var css = `.project a div:hover{background-color: ${maincolor};}`
         var style = document.createElement('style');
