@@ -36,21 +36,16 @@ function load() {
   for (var i = 0; i < projectname.length; i++) {
     document.getElementsByClassName(
       "project"
-    )[0].innerHTML += `<a href="https://playentry.org/01079187959/${
-      projectid[i]
-    }"><img class="pimg" src="https://playentry.org/uploads/thumb/${projectid[
-      i
-    ].substring(0, 4)}/${
-      projectid[i]
-    }.png"><div class="pdiv"><p class="pname"><strong>${
-      projectname[i]
-    }</strong></p><p class="pment">${projectment[i]}</p></div></a>`;
+    )[0].innerHTML += "<a href=\"https://playentry.org/01079187959/" + String(
+      projectid[i])
+    + "\"><img class=\"pimg\" src=\"https://playentry.org/uploads/thumb/" + String(projectid[i].substring(0, 4)) + "/" + String(projectid[i]) + ".png\"><div class=\"pdiv\"><p class=\"pname\"><strong>" +String(projectname[i])
+    "</strong></p><p class=\"pment\">"+ String(projectment[i]) + "</p></div></a>";
   }
-  var avatar = `https://playentry.org/uploads/profile/${userid.substring(
+  var avatar = "https://playentry.org/uploads/profile/" + String(userid.substring(
     0,
     2
-  )}/${userid.substring(2, 4)}/avatar_${userid}.png`;
-  document.title = `${nickname}'s homepage😎`;
+  )) + "/" + String(userid.substring(2, 4)) + "/avatar_" + String(userid) + ".png";
+  document.title = String(nickname) + "'s homepage😎";
   document.querySelector("body > div.name").innerHTML = name;
   document.querySelector("body > div.ment").innerHTML = myment;
   document.querySelector(
@@ -58,17 +53,17 @@ function load() {
   ).style.fill = maincolor;
   document.querySelector(
     "body > div.profile > a"
-  ).href = `https://playentry.org/01079187959`;
+  ).href = "https://playentry.org/01079187959";
   document.querySelector(
     "body > div.profile > a"
-  ).innerHTML = `<img src="${avatar}">`;
+  ).innerHTML = "<img src=" + String(avatar) + ">";
   document.querySelector(
     "body > div.profile > div"
-  ).innerHTML = `<p>엔트리ID : ${name}</p><p>이름 : ${realname}</p><p>대표작 : ${mywork}</p><p>경력 : ${career}</p><p>소개 : ${explanation}</p>`;
+  ).innerHTML = "<p>엔트리ID : " + String(name) + "</p><p>이름 : " + String(realname) + "</p><p>대표작 : " + String(mywork) + "</p><p>경력 : " + String(career) + "</p><p>소개 : " + String(explanation) + "</p>";
   document.querySelector(
     "body > div.footer"
-  ).innerHTML = `<a href="https://playentry.org/uploads/profile/5f/58/avatar_5f58a41d3ec8c201a2d2ed56.png?v=1599644801203"><span>카카오톡</span></a><a href="tel:01079187959"><span>Phone</span></a><a href="mailto:moon7959@kakao.com"><span>Email</span></a><a href="https://github.com/${gitname}"><span>Github</span></a><a href="https://playentry.org/01079187959#!/"><span>Entry</span></a>`;
-  var css = `.project a div:hover{background-color: ${maincolor};}`;
+  ).innerHTML = "<a href=\"https://playentry.org/uploads/profile/5f/58/avatar_5f58a41d3ec8c201a2d2ed56.png?v=1599644801203\"><span>카카오톡</span></a><a href=\"tel:01079187959\"><span>Phone</span></a><a href=\"mailto:moon7959@kakao.com\"><span>Email</span></a><a href=\"https://github.com/" + String(gitname) + "><span>Github</span></a><a href=\"https://playentry.org/01079187959#!/\"><span>Entry</span></a>";
+  var css = ".project a div:hover{background-color: " + String(maincolor) + ";}";
   var style = document.createElement("style");
   if (style.styleSheet) {
     style.styleSheet.cssText = css;
