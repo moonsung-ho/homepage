@@ -1,13 +1,13 @@
 const name = "01079*87959"; //여기에 자기 엔트리아이디를 입력하세요
 const realname = "문성호"; //내가 새로 추가함
-const living = "대한민국 서울특별시 서대문구";
+const living = "korea, seoul, seodaemun-gu";
 const userid = "5ec33d0cbcb447015a162945"; //여기에 자기 유저아이디를 입력하세요 (엔트리콘솔창에 user._id를 치면 자신의 유저아이디를 볼수있어요)
 const gitname = "sungho0205"; //여기에 자기 깃허브아이디를 입력하세요 (깃허브계정이 없으면 그냥 avocad5를 입력하세요<ㅍ)
 const nickname = "전화번호"; //여기에 자기 별명을 입력하세요
-const myment = "👍더 고급지게, 더 빠르게"; //여기에 상태메시지를 입력하세요
+const myment = "👨‍💻"; //여기에 상태메시지를 입력하세요
 const mywork = "이진수↔십진수 변환기"; //여기에 자신의 대표작품을 입력하세요
 const career = "2년"; //여기에 자신의 경력을 입력하세요
-const explanation = "엔트리와 영어를 좋아하는 평범한 초4"; //여기에 자기소개를 입력하세요
+const explanation = "hello👋"; //여기에 자기소개를 입력하세요
 const maincolor = "#00FC1D"; //여기에 메인컬러를 입력하세요 #87FFB7
 const subcolor = "#00A5FF"; //여기에 서브컬러를 입력하세요
 const projectname = [
@@ -16,6 +16,7 @@ const projectname = [
   "bestchat",
   "주식투자게임",
   "updown:age",
+  "영단어사전",
 ]; //여기에 자기 엔트리작품 이름을 입력하세요 (저는 3개만 했지만 여러분은 엄청 많이 하셔도 되요)
 const projectment = [
   "좋아요 100🎉🎉",
@@ -23,6 +24,7 @@ const projectment = [
   "최고의 채팅,bestchat👍",
   "주식을 투자하며 경제관념을 익히세요!💲",
   "인기 게임을 리메이크🎮",
+  "영어 단어를 찾아보세요!📖",
 ]; //여기에 자기 엔트리작품 소개를 입력하세요
 const projectid = [
   "5f03caba86edaa002c7cece3",
@@ -30,6 +32,7 @@ const projectid = [
   "5f2a131808db2f00564497c1",
   "5ec33e0667bcb80036424f99",
   "5ee9753f57d2fc018826a345",
+  "5f545365a2eb270b0ed38741",
 ]; //여기에 자기 엔트리작품 id를 입력하세요
 const theme = "light"; //light또는 dark를 입력하세요
 
@@ -118,4 +121,3 @@ load();
 if (theme === "dark") {
   darkmode();
 }
-alert("제 홈페이지에 오신 것을 진심으로 환영합니다!");
