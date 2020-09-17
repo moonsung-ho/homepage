@@ -24,7 +24,7 @@ const projectment = [
   "최고의 채팅,bestchat👍",
   "주식을 투자하며 경제관념을 익히세요!💲",
   "인기 게임을 리메이크🎮",
-  "영단어들을 찾아보세요!"
+  "영단어들을 찾아보세요!",
 ];
 const projectid = [
   "5f03caba86edaa002c7cece3",
