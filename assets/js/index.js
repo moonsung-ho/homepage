@@ -5,12 +5,13 @@ const userid = "5ec33d0cbcb447015a162945"; //여기에 자기 유저아이디를
 const gitname = "sungho0205"; //여기에 자기 깃허브아이디를 입력하세요 (깃허브계정이 없으면 그냥 avocad5를 입력하세요<ㅍ)
 const nickname = "전화번호"; //여기에 자기 별명을 입력하세요
 const myment = "👨‍💻"; //여기에 상태메시지를 입력하세요
-const mywork = "이진수↔십진수 변환기"; //여기에 자신의 대표작품을 입력하세요
+const mywork = "지뢰찾기"; //여기에 자신의 대표작품을 입력하세요
 const career = "2년"; //여기에 자신의 경력을 입력하세요
 const explanation = "hello👋"; //여기에 자기소개를 입력하세요
 const maincolor = "#00FC1D"; //여기에 메인컬러를 입력하세요 #87FFB7
 const subcolor = "#00A5FF"; //여기에 서브컬러를 입력하세요
 const projectname = [
+  "지뢰 찾기",
   "이진수↔십진수 변환기",
   "벽돌깨기[β]",
   "bestchat",
@@ -19,7 +20,8 @@ const projectname = [
   "영단어사전",
 ]; //여기에 자기 엔트리작품 이름을 입력하세요 (저는 3개만 했지만 여러분은 엄청 많이 하셔도 되요)
 const projectment = [
-  "좋아요 100🎉🎉",
+  "💣지뢰찾기를 엔트리에서!",
+  "좋아요 100!",
   "재미있게 벽돌을 깨보세요!😁",
   "최고의 채팅,bestchat👍",
   "주식을 투자하며 경제관념을 익히세요!💲",
@@ -27,6 +29,7 @@ const projectment = [
   "영단어들을 찾아보세요!",
 ];
 const projectid = [
+  "5f66e426be173a030caf0e03",
   "5f03caba86edaa002c7cece3",
   "5f4b4572569bdd00ad6d346d",
   "5f2a131808db2f00564497c1",
