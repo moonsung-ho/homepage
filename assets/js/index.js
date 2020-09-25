@@ -1,5 +1,5 @@
 const name = "01079*87959"; //여기에 자기 엔트리아이디를 입력하세요
-const realname = "문성호"; //내가 새로 추가함
+const realname = "전번호"; //내가 새로 추가함
 const living = "korea, seoul, seodaemun-gu";
 const userid = "5ec33d0cbcb447015a162945"; //여기에 자기 유저아이디를 입력하세요 (엔트리콘솔창에 user._id를 치면 자신의 유저아이디를 볼수있어요)
 const gitname = "sungho0205"; //여기에 자기 깃허브아이디를 입력하세요 (깃허브계정이 없으면 그냥 avocad5를 입력하세요<ㅍ)
@@ -84,7 +84,7 @@ function load() {
     String(explanation) +
     "</p>";
   document.querySelector("body > div.footer").innerHTML =
-    '<a href="https://playentry.org/uploads/profile/5f/58/avatar_5f58a41d3ec8c201a2d2ed56.png?v=1599644801203"><span>카카오톡</span></a><a href="tel:01079187959"><span>Phone</span></a><a href="mailto:moon7959@kakao.com"><span>Email</span></a><a href="https://github.com/' +
+    '<a href="https://playentry.org/uploads/profile/5f/58/avatar_5f58a41d3ec8c201a2d2ed56.png?v=1599644801203"><span>카카오톡</span></a><a href="tel:01079187959"><span>Phone</span></a><a href="mailto:moon@7959.ml"><span>Email</span></a><a href="https://github.com/' +
     String(gitname) +
     '><span>Github</span></a><a href="https://playentry.org/01079187959#!/"><span>Entry</span></a>';
   var css =
