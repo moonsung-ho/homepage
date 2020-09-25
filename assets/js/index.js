@@ -1,9 +1,9 @@
 const name = "01079*87959"; //여기에 자기 엔트리아이디를 입력하세요
-const realname = "전번호"; //내가 새로 추가함
+const realname = "전화번호"; //내가 새로 추가함
 const living = "korea, seoul, seodaemun-gu";
 const userid = "5ec33d0cbcb447015a162945"; //여기에 자기 유저아이디를 입력하세요 (엔트리콘솔창에 user._id를 치면 자신의 유저아이디를 볼수있어요)
 const gitname = "sungho0205"; //여기에 자기 깃허브아이디를 입력하세요 (깃허브계정이 없으면 그냥 avocad5를 입력하세요<ㅍ)
-const nickname = "전화 번호"; //여기에 자기 별명을 입력하세요
+const nickname = "전화번호"; //여기에 자기 별명을 입력하세요
 const myment = "👨‍💻"; //여기에 상태메시지를 입력하세요
 const mywork = "이진수↔십진수 변환기"; //여기에 자신의 대표작품을 입력하세요
 const career = "2년"; //여기에 자신의 경력을 입력하세요
