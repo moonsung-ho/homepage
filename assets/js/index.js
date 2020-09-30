@@ -119,11 +119,6 @@ function darkmode() {
   document.querySelector("body > div.profile > a > img").style.boxShadow =
     "0 0 30px -15px #111111";
 }
-
-load();
-if (theme === "dark") {
-  darkmode();
-}
 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
@@ -135,3 +130,8 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+load();
+if (theme === "dark") {
+  darkmode();
+}
