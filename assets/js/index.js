@@ -8,7 +8,7 @@ const myment = "👨‍💻"; //여기에 상태메시지를 입력하세요
 const mywork = "지뢰찾기"; //여기에 자신의 대표작품을 입력하세요
 const career = "2년"; //여기에 자신의 경력을 입력하세요
 const explanation = "hello👋"; //여기에 자기소개를 입력하세요
-const maincolor = "#00FC1D"; //여기에 메인컬러를 입력하세요 #87FFB7
+const maincolor = "#1e90ff"; //여기에 메인컬러를 입력하세요 
 const subcolor = "#00A5FF"; //여기에 서브컬러를 입력하세요
 const projectname = [
   "지뢰 찾기",
@@ -17,7 +17,7 @@ const projectname = [
   "bestchat",
   "주식투자게임",
   "updown:age",
-  "영단어사전",
+  "영단어사전", 
 ]; //여기에 자기 엔트리작품 이름을 입력하세요 (저는 3개만 했지만 여러분은 엄청 많이 하셔도 되요)
 const projectment = [
   "💣지뢰찾기를 엔트리에서!",
@@ -118,13 +118,7 @@ function darkmode() {
   document.querySelector("body > div.contact").style.color = "white";
   document.querySelector("body > div.profile > a > img").style.boxShadow =
     "0 0 30px -15px #111111";
-}
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://79187959.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
+} 
 
 load();
 if (theme === "dark") {
